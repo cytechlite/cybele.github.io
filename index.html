@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio</title>  
+  <style>
+    body {
+      font-family:Arial;
+      margin: 0;
+      padding: 0;
+      background-color: aqua;
+      justify-content: flex;
+      align-items: center;
+    }
+    nav {
+      background-color: azure;
+      padding: 20px 0;
+    }
+    nav ul{
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: crimson;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    nav ul li a:hover{
+      text-decoration: underline;
+    }
+    h2 {
+      color: crimson;    
+    }
+    p {
+      line-height: 1.6;
+    }
+               
+    a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      text-align: center;
+    }
+    form{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      width: 50%;
+    }
+    label, input, textarea{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="topo"></div>
+  <nav>
+    <ul>
+       <li><a href="#sobre_mim">Sobre mim</a></li>
+       <li><a href="#formacao_academica">Formação Acadêmica</a></li>
+       <li><a href="#portifolio">Portifólio</a></li>
+       <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section id="sobre_mim">
+    <h2>Sobre mim</h2>
+    <p>Gosto de praia, estar com família , assistir séries e filmes</p>
+    <p>Apesar do tempo curto,pois trabalho 40 horas semanais,procuro ler livros</p>
+    <p>Estou entrando nesse mundo da progarmação e da tecnologia agora</p>
+    <p>Trabalho na área da saúde</p>
+  </section>
+
+ <section id="formacao_academica">
+    <h2>Formação Acadêmica</h2>
+    <p>Análise e Desenvolvimento de Sistemas, pela Uninter(cursando)</p>
+    <p>Graduação em Odontologia</p>
+    <p>Especializaçao em Saúde Pública</p>
+ </section>
+
+  <section id="portifolio">
+    <h2>Portifólio</h2>
+   <a href="//cytechlite.github.io/cyla.github.io/" target="_blank">Link aqui</a>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+
+  <form action="/index.html">
+
+    <label for="text">Nome</label>
+    <input style="display: block"  type="text" name="text"/>
+
+    <label for="text">Telefone</label>
+    <input style="display: block"  type="text" name="text"/>
+    
+
+    <label for="email">Email</label>
+    <input style="display: block"  type="email" name="email"/>
+    
+    <label for="email">Mensagem</label>
+    <textarea style="display: block" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+
+    <button type="submit">Enviar</button>     
+    
+
+  </form>
+
+    <p><a href="#topo">Topo ^</a></p>
+
+  </section>    
+
+ 
+</body>
+</html>
